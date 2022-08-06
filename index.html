@@ -17,20 +17,35 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
       <u1> 
-        <li> The head element contains information about the webpage.</li>
-        <li> The body element represents the visible content shown to the user.</li>
-        <li> A HTML attribute defines additional information about an element.</li>
-        <li> Metadata contains data about a webpage which the browser uses to serve our webpage to users.</li>
-        <li> Child elements are elements that are nested inside other elements.</li>
-        <li> A parent element is the element that contains the child elements.</li>
+        <li>Hypertext Markup Language (HTML) is used to create the structure of a webpage.</li>
+        <li>HTML is made up of elements which work together to provide content, such as text, image, and header elements.</li>
+        <li>Elements are also used to divide content on a page and to describe the content to browsers and other developers. These include meta-related, semantic and content division elements.</li>
+        <li>HTML elements are usually composed of an opening and closing tag, represented with < >. These tags contain everything we want to include in the element. Closing tags begin with a forward slash.</li>
+        <li>The head element contains information (metadata) about the webpage that helps the browser to render the page correctly.</li>
+        <li>The body element represents the visible content shown to the user.</li>
+        <li>Metadata contains data about a webpage which the browser uses to serve our webpage to users.</li>
+        <li>A HTML attribute defines additional information about an element.</li>
+        <li>Child elements are elements that are nested inside other elements.</li>
+        <li>A parent element is the element that contains the child elements.</li>
       </u1>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <u1>
+          <li>Cascading Style Sheets (CSS) is used by developers to define how webpage content is presented to users. It defines the colours, aesthetics, visual layout and organisation.</li>
+          <li>There are three ways to style a webpage using CSS: 
+           <ol>1) Inline CSS – for styling an element directly in the HTML file. </ol>
+           <ol> 2) Internal CSS – Contains CSS rules in the head section of the HTML file that only apply to that page. </ol>
+           <ol> 3) External CSS – CSS rules are kept in a separate file and linked using a link element in the head section.</ol></li>
+          <li>Class attributes are used to add styles to certain elements, rather than all of them. This is done by assigning the rule to a class attribute with a class selector, the class attribute can then be assigned to the element in the HTML.</li>
+          <li>Every CSS element is essentially a box (as described by the CSS box model). Each box consists of margins outside the element, the elements borders, padding and content.</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>CSS rule: a selector defines the elements or attributes to which the rules or declarations will apply.</li>
+          <li>CSS rule: declarations contain two important components; the CSS property we want to apply and the value of the property (e.g. colour:blue)</li>
+          <li>To apply a rule to all elements visible on a page, use *.</li>
+
         </u1>
    
       </section>
@@ -38,8 +53,15 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <u1>
+          <li>Git is a version control system that allows you to manage and keep track of each version of your project.</li>
+          <li>To access git, use the command line.</li>
+          <li>Git commands always begin with ‘git’.</li>
           <li>git status: checks what branch we are currently in</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout -b [branch]: creates a new branch and switches to it</li>
+          <li>git commit -m [descriptive message]: commit your staged content as a new commit snapshot</li>
+          <li>git merge [branch]: merge the specified branch’s history into the current one</li>
+          <li>git push [alias] [branch]: merge a remote branch into the current branch to bring it up to date</li>
+          <li>git push [alias] [branch]: transmit local branch commits to the remote repository branch</li>
         </u1>
    
       </section>
@@ -47,8 +69,22 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <u1>
+          <li>JavaScript (JS) allows users to interact with websites. Through JS, you can use effects, interactivity, data communication and more. </li>
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Conditional statements and loops can be used to control the order in which code is executed, or if it is executed at all.</li>
+          <li>An ‘if’ statement introduces decision-making into code. When using the if statement, code will only execute if the statement meets a condition or is true.</li>
+          <li>A value is considered falsy if it is one of the following values: 0, -0, 0n, “ “,  undefined, NaN or a Boolean data type with the value of false.</li>
+          <li>All other values are considered truthy, including a Boolean type with the value of true.</li>
+          <li>You can have more than one condition by using ‘else if’.</li>
+          <li>An array is a single variable that is used to hold a group of data that is usually related in some way.</li>
+          <li>A single array can store different types of data such as strings, numbers etc. </li>
+          <li>To work with individual data items inside an array, you need the location of the data item in the array. This location is identified with a unique number known as an index.</li>
+          <li>Arrays are zero-indexed and sequential. To access specific data, begin with the name of the variable that stores the array and add the index of the data at the end in square brackets. E.g. shapes[0];</li>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed repeatedly. </li>
+          <li>To use the for loop, the index of the item and length of the array is required.</li>
+          <li>A function is a set of instructions that tells the computer how to perform a certain task.</li>
+          <li>You must call a function by name in order to execute it, unlike a for loop or conditional statement which automatically execute when the JS file is run.</li>
         </u1>
    
       </section>
